@@ -85,6 +85,7 @@
 
 <body>
     <form id="form1" runat="server">
+        <!-- begin top Banner -->
     <div>
     
         <table class="auto-style1">
@@ -103,6 +104,7 @@
         </table>
     
     </div>
+        <!-- end of the top bar -->
         <div>
 
             &nbsp;
@@ -163,7 +165,7 @@
 
 
 
-
+<!-- Begin of Check In and Check out search Bar -->
 
 <div class="container" style="padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px;">
     <br />
@@ -174,7 +176,7 @@
     
   </ul>
   
-  <div class="tab-content" style="width:1092px;height:150px;background-color:aquamarine;">
+  <div class="tab-content" style="width:1092px;height:150px;background-color:#808080">
     <div id="home" class="tab-pane fade in active">
     <br>
     
@@ -213,6 +215,8 @@
     
   </div>
 </div>
+        <!-- End of Check In and Check out search Bar -->
+
         <div>
             <input type="text" name="name" value=" hgh" />
         </div>

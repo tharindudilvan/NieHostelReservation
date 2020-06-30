@@ -30,6 +30,7 @@
         body{
             background-color:white;
             margin-left:15%;
+            display:block;
         }
               
             
@@ -57,13 +58,6 @@
             width:1092px;
             height:150px;
             background-color:darkcyan;
-        }
-       
-        .auto-style7 {
-            width: 100%;
-        }
-        .auto-style8 {
-            height: 43px;
         }
        
         .auto-style9 {
@@ -238,28 +232,26 @@
   </div>
 </div>
         <!-- End of Check In and Check out search Bar -->
-
+        <br />
         <!-- begin of available rooms tabs-->
-        <div class="container" style="margin-right:255px;">
+        <div class="container" style="padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px;">
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#Double_Room">Double Room</a></li>
                 <li><a data-toggle="tab" href="#Triple_Room">Triple Room</a></li>
                 <li><a data-toggle="tab" href="#Dormitory">Dormitory</a></li>
 
             </ul>
-            <div class="tab-content">
-                <div id="home1" class="tab-pane fade in active">
-
+            <div class="tab-content" style="width:1092px;height:150px;background-color:#808080;padding-top:0px;">
+                <div id="Double_Room" class="tab-pane fade in active">
+                   
                 </div>
-                <div id="menu4" class="tab-pane fade">
-
+                <div id="Triple_Room" class="tab-pane fade">
+                    <h3>King Kashyapa</h3>
                 </div>
-                <div id="menu2" class="tab-pane fade">
-
+                <div id="Dormitory" class="tab-pane fade">
+                    <h3>Moda siba</h3>
                 </div>
-                <div id="menu3" class="tab-pane fade">
-
-                </div>
+                
 
             </div>
 

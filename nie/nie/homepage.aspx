@@ -103,13 +103,14 @@
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">WebSiteName</a>
+                        <a class="navbar-brand" href="#">Welcome</a>
 
                     </div>
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 2</a></li>
+                        <li class="active"><a href="homepage.aspx">Home</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -238,9 +239,34 @@
 </div>
         <!-- End of Check In and Check out search Bar -->
 
-        <div>
-            <input type="text" name="name" value=" hgh" />
+        <!-- begin of available rooms tabs-->
+        <div class="container" style="margin-right:255px;">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#Double_Room">Double Room</a></li>
+                <li><a data-toggle="tab" href="#Triple_Room">Triple Room</a></li>
+                <li><a data-toggle="tab" href="#Dormitory">Dormitory</a></li>
+
+            </ul>
+            <div class="tab-content">
+                <div id="home1" class="tab-pane fade in active">
+
+                </div>
+                <div id="menu4" class="tab-pane fade">
+
+                </div>
+                <div id="menu2" class="tab-pane fade">
+
+                </div>
+                <div id="menu3" class="tab-pane fade">
+
+                </div>
+
+            </div>
+
         </div>
+
+
+        <!-- begin of available rooms tabs-->
     </form>
 </body>
 </html>

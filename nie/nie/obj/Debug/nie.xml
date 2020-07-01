@@ -6,6 +6,15 @@ nie
 </name>
 </assembly>
 <members>
+<member name="F:nie.homepage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:nie.homepage._NIEName">
 <summary>
 NIEName control.
@@ -18,6 +27,51 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:nie.homepage._Hostel">
 <summary>
 Hostel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:nie.homepage._RadioButton1">
+<summary>
+RadioButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:nie.homepage._RadioButton2">
+<summary>
+RadioButton2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:nie.homepage._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:nie.homepage._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:nie.homepage._TextBox1">
+<summary>
+TextBox1 control.
 </summary>
 <remarks>
 Auto-generated field.

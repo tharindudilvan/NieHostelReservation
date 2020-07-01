@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Hostel Reservation</title>
 
 
   <meta charset="utf-8">
@@ -16,22 +16,7 @@
 
 
     <style type="text/css">
-        .auto-style1 {
-            width: 95%;
-            margin-bottom: 10px;
-        }
-        .auto-style2 {
-            width: 170px;
-        }
-        .auto-style3 {
-            width: 160px;
-            height: 165px;
-        }
-        body{
-            background-color:white;
-            margin-left:15%;
-            display:block;
-        }
+        
               
             
         .drop{
@@ -47,13 +32,6 @@
            
         }
        
-        .auto-style5 {
-            width: 660px;
-        }
-        .auto-style6 {
-            width: 155px;
-            height: 157px;
-        }
         .search{
             width:1092px;
             height:150px;
@@ -66,65 +44,65 @@
           
         }
        
+        
+       
     </style>
 </head>
 
 <body>
-    <form id="form1" runat="server">
+    
         <!-- begin top Banner -->
-    <div>
-    
-        <table class="auto-style1">
-            <tr>
-                <td class="auto-style2">
-                    <img alt="" class="auto-style3" src="img/nielogo.jpg" /></td>
-                
-                <td class="auto-style5">
-                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="National Institute Of Education"></asp:Label>
-                    <br />
-                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Larger" Text="Hostel reservation System"></asp:Label>
-                </td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-                    <img alt="" class="auto-style6" src="img/nationallogo.png" /></td>
-            </tr>
-        </table>
-    
+ 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
+            
+&nbsp;&nbsp;&nbsp;<img src="img/nielogo.jpg" class="img-rounded" alt="Cinque Terre" width="160" height="165"> </div>
+        <br />
+        <br />
+        <br />
+            <div class="col-lg-8 text-left  " style="padding-left:0px;">
+                <asp:Label ID="NIEName" runat="server" Font-Bold="True" Font-Size="36px" Text="National Institute Of Education"></asp:Label>
+                <br />
+                <asp:Label ID="Hostel" runat="server" Font-Bold="True" Font-Size="30px" Text="Hostel reservation System"></asp:Label>
+
+            </div>
+            <div class="col-lg-2 text-right"><img src="img/nationallogo.png" class="img-rounded" alt="Cinque Terre" width="160" height="165"/></div>
+
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Welcome</a>
+
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="homepage.aspx">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
     </div>
         <!-- end of the top bar -->
         
-        <!-- begin of menu bar -->
-        <div style="margin-right:255px;">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Welcome</a>
-
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="homepage.aspx">Home</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-
-                    </ul>
-
-                </div>
-
-            </nav>
-
-        </div>
-        <!-- end of the menu bar -->
+        
 
 
        <%-- <div>
             <img src="img/hostel1.jpg" class="auto-style4" />
         </div>--%>
 
+<div class="container">
 <table>
     <tr>
         <td class="auto-style9">
@@ -170,6 +148,8 @@
 
                 </div>
 
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
             </div>
 
         </td>
@@ -177,13 +157,14 @@
     </tr>
 
 </table>
+</div>
 
 
 
 
 <!-- Begin of Check In and Check out search Bar -->
 
-<div class="container" style="padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px;">
+<div class="container">
     <br />
   
   <ul class="nav nav-pills">
@@ -234,31 +215,38 @@
         <!-- End of Check In and Check out search Bar -->
         <br />
         <!-- begin of available rooms tabs-->
-        <div class="container" style="padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px;">
-            <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#Double_Room">Double Room</a></li>
-                <li><a data-toggle="tab" href="#Triple_Room">Triple Room</a></li>
-                <li><a data-toggle="tab" href="#Dormitory">Dormitory</a></li>
+    <div class="container" >
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#Double_Room">Double Room</a></li>
+            <li><a data-toggle="tab" href="#Triple_Room">Triple Room</a></li>
+            <li><a data-toggle="tab" href="#Dormitory">Dormitory</a></li>
 
-            </ul>
-            <div class="tab-content" style="width:1092px;height:150px;background-color:#808080;padding-top:0px;">
-                <div id="Double_Room" class="tab-pane fade in active">
-                   
-                </div>
-                <div id="Triple_Room" class="tab-pane fade">
-                    <h3>King Kashyapa</h3>
-                </div>
-                <div id="Dormitory" class="tab-pane fade">
-                    <h3>Moda siba</h3>
-                </div>
-                
+        </ul>
+        <div class="tab-content" >
+            <div id="Double_Room" class="tab-pane fade in active">
+                <h3>sdsdd</h3>
+            </div>
+            <div id="Triple_Room" class="tab-pane fade">
+                <h3>King Kashyapa</h3>
+
+            </div>
+            <div id="Dormitory" class="tab-pane fade">
+                <h3>Moda siba</h3>
 
             </div>
 
         </div>
 
+    </div>
 
-        <!-- begin of available rooms tabs-->
-    </form>
+
+        <!-- End of available rooms tabs-->
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">© 2020 - Department of IT, National Institute of Education, P.O. Box 21, High Level Road, Maharagama, Sri Lanka</span>
+        </div>
+    </footer>
+    
 </body>
 </html>

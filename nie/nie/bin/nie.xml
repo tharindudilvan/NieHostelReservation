@@ -6,27 +6,18 @@ nie
 </name>
 </assembly>
 <members>
-<member name="F:nie.homepage._form1">
+<member name="F:nie.homepage._NIEName">
 <summary>
-form1 control.
+NIEName control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:nie.homepage._Label1">
+<member name="F:nie.homepage._Hostel">
 <summary>
-Label1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:nie.homepage._Label2">
-<summary>
-Label2 control.
+Hostel control.
 </summary>
 <remarks>
 Auto-generated field.

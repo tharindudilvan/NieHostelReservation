@@ -12,41 +12,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
-    <style type="text/css">
-        
-              
-            
-        .drop{
-            width:1092px;
-            height:40px;
-            background-color:aqua;
-            margin-top:0px;
-        }
-        #DropDownList1{
-            margin-left:3px;
-            margin-top:3px;
-            
-           
-        }
-       
-        .search{
-            width:1092px;
-            height:150px;
-            background-color:darkcyan;
-        }
-       
-        .auto-style9 {
-            width: 1092px;
-            height:650px;
-          
-        }
-       
-        
-       
-    </style>
+   
 </head>
 
 <body>
@@ -83,9 +53,13 @@
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="#"><span class="fa fa-money"></span> Payment</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-
+                    
+                   
+                   
                 </ul>
 
             </div>
@@ -105,42 +79,42 @@
 <div class="container">
 <table>
     <tr>
-        <td class="auto-style9">
+        <td >
             <div class="container" style="padding:0px;">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+                <div id="slider1" class="carousel slide" data-ride="carousel" >
     
                     <!-- Indicators -->
     
                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#slider1" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider1" data-slide-to="1"></li>
+                        <li data-target="#slider1" data-slide-to="2"></li>
 
                     </ol>
 
     <!-- Wrapper for slides -->
                     <div class="carousel-inner" >
                         <div class="item active">
-                            <img src="img/slider1.jpg" alt="Los Angeles" style="width:1092px; height:650px;">
+                            <img src="img/slider1.jpg" alt="Los Angeles" style="width:1092px; height:650px;"/>
 
                         </div>
                         <div class="item">
-                            <img src="img/slider2.jpg" alt="Chicago" style="width:1092px; height:650px;">
-
+                            <img src="img/slider2.jpg" alt="Chicago" style="width:1092px; height:650px;"/>
+                            
                         </div>
                         <div class="item">
-                            <img src="img/slider3.jpg" alt="New york" style="width:1092px; height:650px;">
+                            <img src="img/slider3.jpg" alt="New york" style="width:1092px; height:650px;"/>
 
                         </div>
                     </div>
 
     <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <a class="left carousel-control" href="#slider1" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left"></span>
                         <span class="sr-only">Previous</span>
 
                     </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="margin-right:80px;">
+                    <a class="right carousel-control" href="#slider1" data-slide="next" style="margin-right:80px;">
                         <span class="glyphicon glyphicon-chevron-right"></span>
                         <span class="sr-only">Next</span>
 

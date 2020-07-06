@@ -204,7 +204,7 @@
         <div class="tab-content" >
             <div id="Double_Room" class="tab-pane fade in active">
                 <div class="col-lg-4" style="padding-left:0px;" >
-                    <div  style="background-color:#dededc;width:330px;height:160px;" >
+                    <div  style="background-color:#dededc;width:330px;height:205px;" >
                         
                         <h2 class="text-center">H1 Building</h2><br />
                         <h4 class="text-center">Available Rooms</h4>
@@ -212,94 +212,86 @@
                         
                     
                         <asp:TextBox class="center-block" ID="TextBox1" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
-                            
+                        <button type="button" class="btn btn-info center-block"  style="margin-top:10px;">Book</button>   
                     </div>
+                   
                    
                 </div>
                 <div class="col-lg-4" style="padding-left:0px;"  >
-                    <div style="background-color:#dededc;width:330px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H2 Building</h2><br />
-
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox2" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    <div style="background-color:#dededc;width:330px;height:205px;">
+                        <h2 class="text-center">H2 Building</h2><br />
+                        <h4 class="text-center">Available Rooms</h4>
+                        <asp:TextBox class="center-block" ID="TextBox2" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                        <button type="button" class="btn btn-info center-block" style="margin-top:10px;">Book</button> 
                     </div>
+
                 </div>
                 <div class="col-lg-4" style="padding-left:0px;"  >
-                    <div style="background-color:#dededc;width:335px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H3 Building</h2><br />
-
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox3" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    <div style="background-color:#dededc;width:335px;height:205px;">
+                        <h2 class="text-center">H3 Building</h2><br />
+                        <h4 class="text-center">Available Rooms</h4>
+                        <asp:TextBox class="center-block" ID="TextBox3" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                        <button type="button" class="btn btn-info center-block" style="margin-top:10px;">Book</button> 
                     </div>
                 </div>
+
             </div>
             <div id="Triple_Room" class="tab-pane fade">
                 <div class="col-lg-4" style="padding-left:0px;">
-                     <div style="background-color:#dededc;width:335px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H1 Building</h2><br />
-
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox4" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                     <div style="background-color:#dededc;width:335px;height:205px;">
+                         <h2 class="text-center">H1 Building</h2><br />
+                         <h4 class="text-center">Available Rooms</h4>
+                         <asp:TextBox class="center-block" ID="TextBox4" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                         <button type="button" class="btn btn-info center-block" style="margin-top:10px;">Book</button> 
                     </div>
+
                 </div>
                 <div class="col-lg-4" style="padding-left:0px;">
-                     <div style="background-color:#dededc;width:335px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H2 Building</h2><br />
-
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox5" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                     <div style="background-color:#dededc;width:335px;height:205px;">
+                         <h2 class="text-center">H2 Building</h2><br />
+                         <h4 class="text-center">Available Rooms</h4>
+                         <asp:TextBox class="center-block" ID="TextBox5" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                         <button type="button" class="btn btn-info center-block" style="margin-top:10px;">Book</button> 
                     </div>
+
                 </div>
                 <div class="col-lg-4" style="padding-left:0px;">
-                     <div style="background-color:#dededc;width:335px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H3 Building</h2><br />
-
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox6" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                     <div style="background-color:#dededc;width:335px;height:205px;">
+                         <h2 class="text-center">H3 Building</h2><br />
+                         <h4 class="text-center">Available Rooms</h4>
+                         <asp:TextBox class="center-block" ID="TextBox6" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                         <button type="button" class="btn bg-secondary center-block" style="margin-top:10px;">Book</button> 
                     </div>
                 </div>
 
             </div>
             <div id="Dormitory" class="tab-pane fade">
                  <div class="col-lg-4" style="padding-left:0px;">
-                     <div style="background-color:#dededc;width:335px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H1 Building</h2><br />
-
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox7" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                     <div style="background-color:#dededc;width:335px;height:205px;">
+                         <h2 class="text-center">H1 Building</h2><br />
+                         <h4 class="text-center">Available Rooms</h4>
+                         <asp:TextBox class="center-block" ID="TextBox7" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                         <button type="button" class="btn btn-info center-block" style="margin-top:10px;">Book</button> 
                     </div>
                 </div>
-                <div class="col-lg-4" style="padding-left:0px;">
-                     <div style="background-color:#dededc;width:335px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H2 Building</h2><br />
 
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox8" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:205px;">
+                         <h2 class="text-center">H2 Building</h2><br />
+                         <h4 class="text-center">Available Rooms</h4>
+                         <asp:TextBox class="center-block" ID="TextBox8" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                         <button type="button" class="btn btn-info center-block" style="margin-top:10px;">Book</button> 
                     </div>
                 </div>
-                <div class="col-lg-4" style="padding-left:0px;">
-                     <div style="background-color:#dededc;width:335px;height:160px;">
-                        
-                    
-                    <h2 class="text-center">H3 Building</h2><br />
 
-                    <h4 class="text-center">Available Rooms</h4>
-                    <asp:TextBox class="center-block" ID="TextBox9" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:205px;">
+                         <h2 class="text-center">H3 Building</h2><br />
+                         <h4 class="text-center">Available Rooms</h4>
+                         <asp:TextBox class="center-block" ID="TextBox9" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                         <button type="button" class="btn btn-info center-block" style="margin-top:10px;">Book</button> 
                     </div>
+
                 </div>
 
             </div>

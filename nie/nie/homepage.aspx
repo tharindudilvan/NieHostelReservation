@@ -12,15 +12,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 
-    
    
 </head>
 
 <body>
     <form id="form1" runat="server">
+        
 
         <!-- begin top Banner -->
  
@@ -76,6 +76,8 @@
        <%-- <div>
             <img src="img/hostel1.jpg" class="auto-style4" />
         </div>--%>
+
+<div style="background-color:#ffffed;">
 
 <div class="container">
 <table>
@@ -144,12 +146,12 @@
     <br />
   
   <ul class="nav nav-pills">
-    <li class="active"><a data-toggle="pill" href="#home">Individual</a></li>
-    <li><a data-toggle="pill" href="#menu1">Organization</a></li>
+    <li class="active"><a data-toggle="pill" href="#home" >Individual</a></li>
+    <li><a data-toggle="pill" href="#menu1" >Organization</a></li>
     
   </ul>
   
-  <div class="tab-content" style="width:1092px;height:150px;background-color:#808080">
+  <div class="tab-content" style="width:1092px;height:150px;background-color:#dededc">
     <div id="home" class="tab-pane fade in active">
     <br/>
         
@@ -201,39 +203,103 @@
         </ul>
         <div class="tab-content" >
             <div id="Double_Room" class="tab-pane fade in active">
-                <div class="col-lg-4" >
-                    <h2 class="text-center">H1 Building</h2><br />
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <div class="col-lg-4" style="padding-left:0px;" >
+                    <div  style="background-color:#dededc;width:330px;height:160px;" >
+                        
+                        <h2 class="text-center">H1 Building</h2><br />
+                        <h4 class="text-center">Available Rooms</h4>
+
+                        
+                    
+                        <asp:TextBox class="center-block" ID="TextBox1" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                            
+                    </div>
                    
                 </div>
-                <div class="col-lg-4" >
-                    <h2>dfsf</h2>
+                <div class="col-lg-4" style="padding-left:0px;"  >
+                    <div style="background-color:#dededc;width:330px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H2 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox2" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
-                <div class="col-lg-4" >
-                    <h2>dfsf</h2>
+                <div class="col-lg-4" style="padding-left:0px;"  >
+                    <div style="background-color:#dededc;width:335px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H3 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox3" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
             </div>
             <div id="Triple_Room" class="tab-pane fade">
-                <div class="col-lg-4">
-                    <h2></h2>
+                <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H1 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox4" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <h2></h2>
+                <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H2 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox5" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <h2></h2>
+                <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H3 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox6" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
 
             </div>
             <div id="Dormitory" class="tab-pane fade">
-                 <div class="col-lg-4">
-                    <h2></h2>
+                 <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H1 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox7" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <h2></h2>
+                <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H2 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox8" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <h2></h2>
+                <div class="col-lg-4" style="padding-left:0px;">
+                     <div style="background-color:#dededc;width:335px;height:160px;">
+                        
+                    
+                    <h2 class="text-center">H3 Building</h2><br />
+
+                    <h4 class="text-center">Available Rooms</h4>
+                    <asp:TextBox class="center-block" ID="TextBox9" runat="server" Height="50px" Width="75px" ReadOnly="True" BorderColor="White"></asp:TextBox>
+                    </div>
                 </div>
 
             </div>
@@ -244,14 +310,18 @@
 
 
         <!-- End of available rooms tabs-->
-
+<br />
+        <br />
     <footer class="footer">
-        <div class="container">
-            <span class="text-muted">© 2020 - Department of IT, National Institute of Education, P.O. Box 21, High Level Road, Maharagama, Sri Lanka</span>
+        <div class="container text-center">
+            <span class="text-muted ">© 2020 - Department of IT, National Institute of Education, P.O. Box 21, High Level Road, Maharagama, Sri Lanka</span>
         </div>
     </footer>
 
+    </div>
+
 </form>
+
     
 </body>
 </html>

@@ -30,6 +30,18 @@
          .button_submit{
             margin-left: 20px;
         }
+         /*page footer*/
+        .page-footer {
+            background-color: #222;
+            color: #ccc;
+            padding: 60px 0 10px;
+        }
+
+        .footer-copyright {
+            color: #666;
+            padding: 10px 0;
+        }
+    /*page footer*/
 
     </style>
 
@@ -46,7 +58,7 @@
         <div class="row">
             <div class="col-lg-2 text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
             
-&nbsp;&nbsp;&nbsp;<img src="img/nielogo.jpg" class="img-rounded" alt="Cinque Terre" width="160" height="165"> </div>
+&nbsp;&nbsp;&nbsp;<img src="img/nielogo.jpg" class="img-rounded" alt="Cinque Terre" width="160" height="165"/> </div>
         <br />
         <br />
         <br />
@@ -68,14 +80,14 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="homepage.aspx">Home</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.aspx">Contact</a></li>
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li><a href="#"><span class="fa fa-money"></span> Payment</a></li>
+                    <li><a href="payment.aspx"><span class="fa fa-money"></span> Payment</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     
                    
                    
@@ -162,7 +174,7 @@
           <table class="table table-hover">
               <tr>
                   <td>
-                     <asp:Label class="bottom_room" ID="Label1" runat="server" Text="Available Rooms" Font-Bold="True"></asp:Label> 
+                     <asp:Label CssClass="bottom_room" ID="Label1" runat="server" Text="Available Rooms" Font-Bold="True"></asp:Label> 
 
                   </td>
 
@@ -171,7 +183,7 @@
               </tr>
               <tr>
                   <td>
-                      <asp:Label class="bottom_room" ID="Label2" runat="server" Text="Total Rooms" Font-Bold="True"></asp:Label>  
+                      <asp:Label CssClass="bottom_room" ID="Label2" runat="server" Text="Total Rooms" Font-Bold="True"></asp:Label>  
 
                   </td>
 
@@ -236,9 +248,9 @@
           <asp:CheckBox ID="CheckBox1" runat="server" Text="Terms and Conditions" />
 </div>
        <div style="margin-top:10px; margin-left:90px;">
-           <asp:Button ID="Button1" runat="server" class="btn btn-danger" Text="Cancel" />
+           <asp:Button ID="Button1" runat="server" CssClass="btn btn-danger" Text="Cancel" />
         
-          <asp:Button ID="Button2" runat="server" Text="Submit" class="btn btn-primary button_submit"/>
+          <asp:Button ID="Button2" runat="server" Text="Submit" CssClass="btn btn-primary button_submit"/>
       </div>
 </div>
  <%--billing info--%>
@@ -251,11 +263,27 @@
         <br />
         <br />
         <br />
-  <footer class="footer">
-        <div class="container text-center">
-            <span class="text-muted ">© 2020 - Department of IT, National Institute of Education, P.O. Box 21, High Level Road, Maharagama, Sri Lanka</span>
-        </div>
-    </footer>
+    <%-- PAGE_FOOTER  --%>    
+        <footer class="page-footer" style="margin-top: 100px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-12">
+      <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <h6 class="text-uppercase font-weight-bold">Contact</h6>
+      <p>1640 Riverside Drive, Hill Valley, California
+      <br/>info@mywebsite.com
+      <br/>+ 01 234 567 88
+      <br/>+ 01 234 567 89</p>
+    </div>
+  </div>
+  <div class="footer-copyright text-center">© 2020 - Department of IT, National Institute of Education</div>
+   </div>
+</footer>
+ <%-- PAGE_FOOTER  --%>    
     </form>
 </body>
 </html>

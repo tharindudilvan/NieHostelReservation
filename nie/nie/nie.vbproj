@@ -92,17 +92,32 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about_us.aspx" />
     <Content Include="booking.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="dashboard.aspx" />
     <Content Include="homepage.aspx" />
+    <Content Include="img\careers2.jpg" />
     <Content Include="img\hostel1.jpg" />
     <Content Include="img\nielogo.jpg" />
     <Content Include="img\nationallogo.png" />
     <Content Include="img\slider1.jpg" />
     <Content Include="img\slider2.jpg" />
     <Content Include="img\slider3.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="payment.aspx" />
+    <Content Include="registration.aspx" />
+    <Content Include="room_adding.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="about_us.aspx.designer.vb">
+      <DependentUpon>about_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about_us.aspx.vb">
+      <DependentUpon>about_us.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="booking.aspx.designer.vb">
       <DependentUpon>booking.aspx</DependentUpon>
     </Compile>
@@ -110,11 +125,32 @@
       <DependentUpon>booking.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="contact.aspx.designer.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="dashboard.aspx.designer.vb">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.aspx.vb">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="homepage.aspx.designer.vb">
       <DependentUpon>homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.vb">
       <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -135,6 +171,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="payment.aspx.designer.vb">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="payment.aspx.vb">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.vb">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registration.aspx.vb">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="room_adding.aspx.designer.vb">
+      <DependentUpon>room_adding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="room_adding.aspx.vb">
+      <DependentUpon>room_adding.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

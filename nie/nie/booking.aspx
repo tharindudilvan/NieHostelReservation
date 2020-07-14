@@ -79,8 +79,9 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="homepage.aspx">Home</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="about_us.aspx">About Us</a></li>
                     <li><a href="contact.aspx">Contact</a></li>
+                    <li><a href="gallery.aspx">Gallery</a></li>
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

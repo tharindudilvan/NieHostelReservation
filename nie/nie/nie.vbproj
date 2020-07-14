@@ -96,7 +96,17 @@
     <Content Include="booking.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="dashboard.aspx" />
+    <Content Include="gallery.aspx" />
     <Content Include="homepage.aspx" />
+    <Content Include="images\benches.jpg" />
+    <Content Include="images\bridge.jpg" />
+    <Content Include="images\coast.jpg" />
+    <Content Include="images\park.jpg" />
+    <Content Include="images\rails.jpg" />
+    <Content Include="images\rocks.jpg" />
+    <Content Include="images\sky.jpg" />
+    <Content Include="images\traffic.jpg" />
+    <Content Include="images\tunnel.jpg" />
     <Content Include="img\careers2.jpg" />
     <Content Include="img\hostel1.jpg" />
     <Content Include="img\nielogo.jpg" />
@@ -137,6 +147,13 @@
     </Compile>
     <Compile Include="dashboard.aspx.vb">
       <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="gallery.aspx.designer.vb">
+      <DependentUpon>gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gallery.aspx.vb">
+      <DependentUpon>gallery.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="homepage.aspx.designer.vb">

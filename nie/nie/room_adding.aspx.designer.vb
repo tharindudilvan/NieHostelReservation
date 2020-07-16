@@ -50,13 +50,13 @@ Partial Public Class room_adding
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''payment_id control.
+    '''room_id control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents payment_id As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents room_id As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Label1 control.
@@ -68,13 +68,13 @@ Partial Public Class room_adding
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''payment_ref control.
+    '''block_num control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents payment_ref As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents block_num As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Label5 control.
@@ -86,58 +86,13 @@ Partial Public Class room_adding
     Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''RadioButton2 control.
+    '''no_of_person control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RadioButton2 As Global.System.Web.UI.WebControls.RadioButton
-    
-    '''<summary>
-    '''Label4 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''RadioButton1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents RadioButton1 As Global.System.Web.UI.WebControls.RadioButton
-    
-    '''<summary>
-    '''Label3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''RadioButton3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents RadioButton3 As Global.System.Web.UI.WebControls.RadioButton
-    
-    '''<summary>
-    '''Label7 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label7 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents no_of_person As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Label6 control.
@@ -185,6 +140,24 @@ Partial Public Class room_adding
     Protected WithEvents Label9 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
+    '''Label3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''price_per_person control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents price_per_person As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
     '''Button2 control.
     '''</summary>
     '''<remarks>
@@ -201,4 +174,13 @@ Partial Public Class room_adding
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''RadioButton6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadioButton6 As Global.System.Web.UI.WebControls.RadioButton
 End Class

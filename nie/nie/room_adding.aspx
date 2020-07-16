@@ -64,7 +64,6 @@
                     <li class="active"><a href="homepage.aspx">Home</a></li>
                     <li><a href="about_us.aspx">About Us</a></li>
                     <li><a href="contact.aspx">Contact</a></li>
-                    <li><a href="gallery.aspx">Gallery</a></li>
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -107,7 +106,7 @@
                </div>
 
                <div class="col-sm-3">
-                   <asp:TextBox ID="payment_id" CssClass="form-control" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="room_id" CssClass="form-control" runat="server"></asp:TextBox>
                </div>
            </div>
 
@@ -123,20 +122,18 @@
                </div>
 
                <div class="col-sm-3">
-                   <asp:TextBox ID="payment_ref" CssClass="form-control" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="block_num" CssClass="form-control" runat="server"></asp:TextBox>
                </div>
            </div>
            <br />
            <div class="row">
                <div class="col-sm-3"></div>
                <div class="col-sm-3">
-                   <asp:Label ID="Label5" runat="server" Text="Select Room Type" Font-Bold="True" Font-Size="Medium"></asp:Label>
+                   <asp:Label ID="Label5" runat="server" Text="Num Of Persons" Font-Bold="True" Font-Size="Medium"></asp:Label>
 
                </div>
                <div class="col-sm-3">
-                   <asp:RadioButton ID="RadioButton2" runat="server" GroupName="rooms_type" />&nbsp;&nbsp;&nbsp;<asp:Label ID="Label4" runat="server" Text="Two Person Room"></asp:Label><br />
-                   <asp:RadioButton ID="RadioButton1" runat="server" GroupName="rooms_type" />&nbsp;&nbsp;&nbsp;<asp:Label ID="Label3" runat="server" Text="Three Person Romm"></asp:Label><br />
-                   <asp:RadioButton ID="RadioButton3" runat="server" GroupName="rooms_type" />&nbsp;&nbsp;&nbsp;<asp:Label ID="Label7" runat="server" Text="Dormitory"></asp:Label>
+                   <asp:TextBox ID="no_of_person" CssClass="form-control" runat="server"></asp:TextBox>
                </div>
            </div>
            <br />
@@ -144,12 +141,23 @@
                <div class="col-xs-3">
                </div>
                <div class="col-sm-3">
-                   <asp:Label ID="Label6" runat="server" Text="Enter Block Number" Font-Bold="True" Font-Size="Medium"></asp:Label>
+                   <asp:Label ID="Label6" runat="server" Text="Select Gender" Font-Bold="True" Font-Size="Medium"></asp:Label>
                </div>
 
                <div class="col-sm-3">
                    <asp:RadioButton ID="RadioButton4" runat="server" GroupName="rooms_gender" />&nbsp;&nbsp;&nbsp;<asp:Label ID="Label8" runat="server" Text="Male"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:RadioButton ID="RadioButton5" runat="server" GroupName="rooms_gender" />&nbsp;&nbsp;&nbsp;<asp:Label ID="Label9" runat="server" Text="Female"></asp:Label>
+               </div>
+           </div>
+           <br />
+            <div class="row">
+               <div class="col-sm-3"></div>
+               <div class="col-sm-3">
+                   <asp:Label ID="Label3" runat="server" Text="Price Per Person" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+               </div>
+               <div class="col-sm-3">
+                   <asp:TextBox ID="price_per_person" CssClass="form-control" runat="server"></asp:TextBox>
                </div>
            </div>
            <br />
@@ -191,7 +199,9 @@
                 <div class="footer-copyright text-center">© 2020 - Department of IT, National Institute of Education</div>
             </div>
         </footer>
+        <asp:RadioButton ID="RadioButton6" runat="server" Checked="True" Text="fghh" />
         <%-- PAGE_FOOTER  --%>
+
     </form>
 </body>
 </html>
